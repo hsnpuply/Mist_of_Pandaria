@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import HeaderNav from '../components/layout/HeaderNav.vue'
 import HeroSection from '../components/hero/HeroSection.vue'
-import { useLandingViewModel } from '../viewmodels/useLandingViewModel'
+import { useLandingController } from '../controllers/useLandingController'
 
-const { content, navItems, topActions, heroActions } = useLandingViewModel()
+const { content, navItems, topActions, heroActions } = useLandingController()
 </script>
 
 <template>
